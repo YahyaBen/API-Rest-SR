@@ -22,9 +22,9 @@ namespace API_SR_Bank.Controllers
 
         // GET: api/Clients
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Client>>> GetClients()
+        public List<Client> GetClients()
         {
-            return await _context.Clients.ToListAsync();
+            return  _context.Clients.ToList();
         }
 
         // GET: api/Clients/5
