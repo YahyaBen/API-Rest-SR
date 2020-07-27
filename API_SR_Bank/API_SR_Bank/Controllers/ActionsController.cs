@@ -79,6 +79,9 @@ namespace API_SR_Bank.Controllers
         [HttpPost]
         public async Task<ActionResult<Models.Action>> PostAction(Models.Action action)
         {
+            var C = await _context.Clients.FindAsync(action.ClientId);
+            C.Solde = C.Solde - action.Retrait + action.Depot;
+            _context.Entry(C).State = EntityState.Modified;
             _context.Actions.Add(action);
             await _context.SaveChangesAsync();
 
