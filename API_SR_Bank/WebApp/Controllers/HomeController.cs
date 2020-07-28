@@ -21,7 +21,7 @@ namespace WebApp.Controllers
         {
             _logger = logger;
         }
-
+        //////////////////////////////////////////////// Index //////////////////////////////////////////////////////////////
         public async Task<IActionResult> Index()
         {
             List<ClientData> clients = new List<ClientData>();
@@ -41,7 +41,7 @@ namespace WebApp.Controllers
             return View();
         }
 
-
+        //////////////////////////////////////////////// Details //////////////////////////////////////////////////////////////
         public async Task<IActionResult> Details(int Id)
         {
             var ClientId = new ClientData();
@@ -56,11 +56,13 @@ namespace WebApp.Controllers
             return View(ClientId);
         }
 
+
+        //////////////////////////////////////////////// Create  //////////////////////////////////////////////////////////////
         [HttpPost]
         public async Task<IActionResult> Create(ClientData ClientAdd)
         {
             HttpClient client = _api.initial();
-            var ajouter = await client.PostAsJsonAsync<ClientData>("api/clients", ClientAdd); //Microsoft.AspNet.WebApi.Client  
+            var ajouter = await client.PostAsJsonAsync<ClientData>("api/Clients", ClientAdd); //Microsoft.AspNet.WebApi.Client  
             if (ajouter.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
@@ -68,12 +70,44 @@ namespace WebApp.Controllers
 
             return View();
         }
-
         public IActionResult Create()
         {
             return View();
         }
 
+
+        ////////////////////////////////////////////////  Edit  //////////////////////////////////////////////////////////////
+        public async Task<IActionResult> Edit(int Id)
+        {
+            var ClientId = new ClientData();
+            HttpClient client = _api.initial();
+            HttpResponseMessage res = await client.GetAsync("/api/Clients/" + Id); //Microsoft.AspNet.WebApi.Client 
+            if (res.IsSuccessStatusCode)
+            {
+                var resultats = res.Content.ReadAsStringAsync().Result;
+                ClientId = JsonConvert.DeserializeObject<ClientData>(resultats);
+            }
+            return View(ClientId);
+        }
+
+        
+        [HttpPost]
+        public async Task<IActionResult> Edit(ClientData ClientAdd,int Id)
+        {
+            HttpClient client = _api.initial();
+            var ajouter = await client.PutAsJsonAsync<ClientData>($"api/Clients/"+Id, ClientAdd); //Microsoft.AspNet.WebApi.Client  
+            ajouter.EnsureSuccessStatusCode();
+            if (ajouter.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View(ClientAdd);
+        }
+
+
+
+        //////////////////////////////////////////////// Delete //////////////////////////////////////////////////////////////
         public async Task<IActionResult> Delete(int Id)
         {
             var ClientId = new ClientData();
@@ -82,6 +116,7 @@ namespace WebApp.Controllers
 
             return RedirectToAction("Index");
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

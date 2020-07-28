@@ -112,3 +112,4 @@ C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
