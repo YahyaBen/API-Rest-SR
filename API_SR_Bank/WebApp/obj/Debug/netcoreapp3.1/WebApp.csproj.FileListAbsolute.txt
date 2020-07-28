@@ -102,9 +102,13 @@ C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.csproj.CoreCompileInputs.cache
-C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.Views.pdb
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.dll
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.pdb
 C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hyrku\Source\Repos\api_rest_II\API_SR_Bank\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs

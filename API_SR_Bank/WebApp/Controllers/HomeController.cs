@@ -26,7 +26,7 @@ namespace WebApp.Controllers
         {
             List<ClientData> clients = new List<ClientData>();
             HttpClient client = _api.initial();
-            HttpResponseMessage res = await client.GetAsync("/api/client");
+            HttpResponseMessage res = await client.GetAsync("/api/Clients");
 
             if (res.IsSuccessStatusCode)
             {
@@ -39,6 +39,48 @@ namespace WebApp.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+
+        public async Task<IActionResult> Details(int Id)
+        {
+            var ClientId = new ClientData();
+            HttpClient client = _api.initial();
+            HttpResponseMessage res = await client.GetAsync("/api/Clients/"+Id); //Microsoft.AspNet.WebApi.Client 
+
+            if (res.IsSuccessStatusCode)
+            {
+                var resultats = res.Content.ReadAsStringAsync().Result;
+                ClientId = JsonConvert.DeserializeObject<ClientData>(resultats);
+            }
+            return View(ClientId);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ClientData ClientAdd)
+        {
+            HttpClient client = _api.initial();
+            var ajouter = await client.PostAsJsonAsync<ClientData>("api/clients", ClientAdd); //Microsoft.AspNet.WebApi.Client  
+            if (ajouter.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> Delete(int Id)
+        {
+            var ClientId = new ClientData();
+            HttpClient client = _api.initial();
+            HttpResponseMessage res = await client.DeleteAsync("/api/Clients/" + Id); //Microsoft.AspNet.WebApi.Client 
+
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

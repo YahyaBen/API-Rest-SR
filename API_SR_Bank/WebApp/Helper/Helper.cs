@@ -18,3 +18,5 @@ namespace WebApp.Helper
 }
 
 // https://www.youtube.com/watch?v=bgsROO8kDh0
+// https://www.tutorialsteacher.com/webapi/consume-web-api-post-method-in-aspnet-mvc
+// https://www.yogihosting.com/aspnet-core-api-controllers/#controllerbase
