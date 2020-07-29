@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_SR_Bank.Migrations
 {
     [DbContext(typeof(MyContexte))]
-    [Migration("20200727140605_Migration1")]
-    partial class Migration1
+    [Migration("20200729181005_MigOne")]
+    partial class MigOne
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

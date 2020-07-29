@@ -2,7 +2,7 @@
 
 namespace API_SR_Bank.Migrations
 {
-    public partial class Migration1 : Migration
+    public partial class MigOne : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

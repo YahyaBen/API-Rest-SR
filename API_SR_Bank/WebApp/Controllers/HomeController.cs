@@ -76,6 +76,24 @@ namespace WebApp.Controllers
         }
 
 
+        //////////////////////////////////////////////// Create Action //////////////////////////////////////////////////////////////
+        [HttpPost]
+        public async Task<IActionResult> CreateAction   (ActionsData ActionAdd)
+        {
+            HttpClient client = _api.initial();
+            var ajouter = await client.PostAsJsonAsync<ActionsData>("api/Actions", ActionAdd); //Microsoft.AspNet.WebApi.Client  
+            if (ajouter.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+        public IActionResult CreateAction()
+        {
+            return View();
+        }
+
         ////////////////////////////////////////////////  Edit  //////////////////////////////////////////////////////////////
         public async Task<IActionResult> Edit(int Id)
         {
