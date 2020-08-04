@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lowU7ap8PWyobfgbmj/eJWKF7gvxGyaMCQnzt90u3+VJjIzwhzEBAhjbsJ+NKUMbmG+x7bk+0J5wtbKJ/YyHeA==",
+  "dgSpecHash": "mWWUbHkXhgr0zzFos9JJl2j67cwZLKQpchDPLNLyfWjsqgVqmnTIV+MyTCtl7ZQG1R0D664IQ2K1PEDBIXGWtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr\\API_SR_Bank\\API_SR_Bank\\API_SR_Bank.csproj",
+  "projectFilePath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr_III\\API_SR_Bank\\API_SR_Bank\\API_SR_Bank.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -44,6 +44,7 @@
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.3\\microsoft.visualstudio.web.codegeneration.3.1.3.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.3\\microsoft.visualstudio.web.codegeneration.contracts.3.1.3.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.3\\microsoft.visualstudio.web.codegeneration.core.3.1.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FWd/uSNsdVli8XtoUji1ABPjqOFQvqNn01ZSCflYnHg4Mbqeut8tBMghGjLjOuMg1wdGNocFMqPxIEwcJRe2Pg==",
+  "dgSpecHash": "iQ3PIRonq6XIbRxu08+c9GmOmEsYSuJj8XNjtAfwasUs4RTyj6jneNCY+Yu+S9eQWWnloeIjB2Ej1h40ulbHRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr\\API_SR_Bank\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr_III\\API_SR_Bank\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Hyrku\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

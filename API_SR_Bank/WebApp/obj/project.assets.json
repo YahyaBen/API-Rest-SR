@@ -6137,11 +6137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr\\API_SR_Bank\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr_III\\API_SR_Bank\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr\\API_SR_Bank\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr_III\\API_SR_Bank\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\Hyrku\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr\\API_SR_Bank\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\Hyrku\\Source\\Repos\\api_rest_sr_III\\API_SR_Bank\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hyrku\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6199,7 +6199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
